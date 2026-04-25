@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)https://seservice.lenovo.com/static_file/Istc_Depository/lstc_FAQ.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="zh-cn">
+
+<title>LSTC - FAQ</title>
+<style type="text/css">
+.style2 {
+				font-size: medium;
+}
+.style6 {
+				font-family: "Meiryo UI";
+}
+.style7 {
+				font-family: "Meiryo UI";
+				font-size: small;
+}
+.style8 {
+				font-size: small;
+}
+ p.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+.style9 {
+				font-weight: normal;
+}
+.style11 {
+	background-color: #FFFF00;
+}
+</style>
+</head>
+
+<body>
+
+<span class="style6"><strong><span class="style2">LSTC (Lenovo Service Tool Center) - FAQ: </span><span class="style8"></span></strong> (-- U1 tool FAQ is enclosed the same at the end) <br>
+<br>
+<br>
+<br>
+<hr>
+<hr>
+<br>
+<strong>LSTC - Lenovo Service Tool Center – Main interface intrduce</strong><br>
+<br>
+By selecting related module items and clicking the 'Update' button, LSTC tool will download latest U1 package, <br>
+Diagnostic tools and other useful tools as BIOS tool, panel fireware tool, etc. and get them deployed <br>
+in USB key for later usage.<br>
+<br>
+LSTC tool will get itself deployed into the USB, please go check LSTC utility in USB sub folder: 'LSTC_TOOL'.<br>
+<br>
+<a href="./LSTC - FAQ_files/LSTC_interface_01.jpg" target="_blank"><img style="max-width:1000px;max-height:600px;" src="./LSTC - FAQ_files/LSTC_interface_01.jpg"></a> <br>
+<br>
+<hr>
+<br>
+<strong>the suggested size of USB stick to install minimal and full set of features of LSTC:</strong><br>
+<br>
+** minimal size 4GB: (all tools installed/deployed, but without C1 crisis bios packages). <br>
+<br>
+** full size 9GB:(all tools installed/deployed, with all C1 crisis bios packages).<br>
+<br>
+<hr>
+<br>
+<strong>the package cache feature of LSTC(and C1 tool):</strong><br>
+<br>
+** All packages will be cached in an cache sub folders of LSTC, while another USB is connected, <br>
+LSTC will check the cached package’s version information and deploy from the cache folders if the version no issues,<br>
+instead of downloading it from server side each times.<br>
+<br>
+So, it is better to run LSTC on your working unit's hard drive side, instead of running it in USB. <br>
+Anyway, 2 USB scenario also will work.<br>
+<br>
+** for C1, if you want to get C1 crisis packages cached for deploying to other USB, need: <br>
+<br>
+--&gt; run LSTC w/o USB--&gt;click and running C1 inside LSTC w/o USB --&gt; <br>
+once C1 launched--&gt;plugin target USB --&gt; start C1 Update <br>
+<hr>
+<br>
+<strong>Why need to format the USB key/device via the LSTC format button:</strong><br>
+<br>
+** If you do not format your USB key as required by the provided 'format tool', the ThinkPad Maintenance Utility will<br>
+enter "Read Only" mode and you can view, but cannot change anything. <br>
+<br>
+the error message will like: TpReadEEPROMBlock : Write access to Block#84 is denied...<br>
+<br>
+<hr>
+<br>
+<strong>Not all connected USB key/device are recognized/accepted:</strong><br>
+<br>
+only Removable USB device can be supported by LSTC tool, as it is ThinkPad Maintenance Utility 's limitation.<br>
+<br>
+Refer to figure: <br>
+<a href="./LSTC - FAQ_files/lstc_usb_type_01.jpg" target="_blank"><img style="max-width:500px;max-height:450px;" src="./LSTC - FAQ_files/lstc_usb_type_01.jpg"></a> <br>
+<br>
+<hr>
+<br>
+<strong>Update button is gray and not work:</strong><br>
+<br>
+LSTC tool could launch without network connection, related Update feature will be disabled,  <br>
+once network is connected, need to launch LSTC tool again to enable the Update button.<br>
+<br>
+also, an connected USB key is required the same.<br>
+<br>
+<hr>
+<br>
+<strong>No access right to LSTC alert and KB tips link:</strong><br>
+<br>
+Most alert doc and the KB tips is lenovo servicer only tips, need to have e-support servicer access right to view related tips doc, <br>
+related e-support access right issue, please ask for help from region/geo support team.<br>
+<br>
+<hr>
+<br>
+<strong>Sunset arrangement for original U1 update utility:</strong><br>
+<br>
+Field team still able to use the origianl U1 update utility to get latest U1 package and <br>
+Lenovo Diagnostics tool (Linux and EFI version) package.<br>
+<br>
+ U1 support team will stop maintaining new package for U1 update utility one year later(around Aug 2024).<br>
+<br>
+<hr>
+<br>
+<strong>LSTC inside tool list:</strong><br>
+<br>
+U1<br>
+C1<br>
+Keyboard ID list<br>
+LDE - Lenovo Diagnostics Evolution<br>
+Lenovo Diagnostics for ARM<br>
+Lenovo Diagnostics - Linux Version<br>
+Lenovo Diagnostics - EFI Version<br>
+Lenovo Diagnostics - EFI Version for ARM<br>
+Lenovo ThinkStation Diagnostics<br>
+Camera FixCorePower Tool<br>
+Lenovo Battery Firmware Update Utility - ThinkPad<br>
+Lenovo Battery Firmware Update Utility - ThinkPad X13 Yoga Gen 1 (Type 20SX, 20SY)<br>
+Lenovo Battery Firmware Update Utility - ThinkPad X1 Carbon 8th Gen (Type 20U9, 20UA)<br>
+NVMe Solid State Drive Firmware Update Utility - ThinkPad<br>
+NVMe Solid State Drive Firmware Update Utility - ThinkPad Z16 Gen 1 (Type 21D4, 21D5)<br>
+PM9A1 NVMe Solid State Drive Firmware<br>
+UMIS NVMe Solid State Drive Firmware<br>
+INTEL NVMe Solid State Drive Firmware<br>
+WD NVMe Solid State Drive Firmware<br>
+Kioxia NVMe Solid State Drive Firmware<br>
+AUO Panel FW Tool for Windows<br>
+Panel FW Tool - Legion Pro 5 16ARX8 <br>
+Panel FW Tool - Legion S7 16APH8<br>
+RPMC Rebinding Tool - Legion T5 26ARA8<br>
+RPMC EFI Rebinding Tool -Legion T5 26ARA8<br>
+E-ink_Test_Tool - Thinkbook Plus<br>
+E-ink_Test_Tool - Thinkbook Plus G2<br>
+ThinkBook Plus G3 test tool<br>
+ThinkBook Plus G4 E-ink Touch Test Tool<br>
+iobox - ThinkCentre M90n-1<br>
+Mac address data sync tool - E series<br>
+BIOS Tool - IdeaPad 5G 14Q8X05 (ARM)<br>
+BIOS Tool - Legion S7 16IAH7<br>
+BIOS Tool - Yoga 5G-14Q8CX05 (ARM)<br>
+BIOS Tool - Lenovo 10w (ARM)<br>
+BIOS Tool - Miix630-12Q35 (ARM)<br>
+X-Rite Color Assistant - Ideapad<br>
+X-Rite Color Assistant - ThinkPad<br>
+<br>
+<hr>
+<br>
+<strong>LSTC WW training:</strong><br>
+<br>
+<a href="https://learning.lenovo.com/learn/course/internal/view/elearning/4328/lstc-lenovo-service-tool-center-cswi22s" target="_blank">LSTC Lenovo Service Tool Center (CSWi22S)</a> <br>
+<br>
+<hr>
+<br>
+<strong>LSTC issue and suggestion feedback channel:</strong><br>
+<br>
+Field team can directly send email to LSTC owner Li Jinrui by email address : lijre@lenovo.com,<br>
+Any feedback &amp; comments are welcome and most appreciated.<br>
+<br>
+<hr>
+<hr>
+<br>
+<strong>PS: U1 tool FAQ:</strong><br>
+<br>
+<hr>
+<hr>
+<br>
+* 1.	How to know if U1 tool is outdated and related download link(servicer access ID is required)<br>
+<br>
+A: Field team can refer to below update notcie to know latest U1 verison information<br>
+<a href="https://seservice.lenovo.com/static_file/download2/gku1/U1_Readme.html" target="_blank">U1 tool update notice</a> <br>
+<br>
+A: if the U1 update utility version is too old to get latest U1 package, please try get the latest U1 update utility or try above LSTC utility:<br>
+<br>
+<a href="https://support.lenovo.com/us/en/downloads/DS545236" target="_blank">U1 Update software for Golden Key U1 BIOS Tool</a> <br>
+<br>
+<a href="https://support.lenovo.com/us/en/downloads/DS564690" target="_blank">LSTC - Lenovo Service Tool Center Utility</a> <br>
+<br>
+<hr>
+<br>
+* 2.	How to handle related injection issue, such as: System board erase may not done properly, motherboard is DOA for which details are not getting updated, or UUID mapping issue or Mac ID is not getting updated.<br>
+<br>
+A: U1 tool injection feature issue, such as injection failure(SN# updated and MTM is not getting updated) or product not supported, please directly send email to LSTC and U1 tool owner Li Jinrui by email address : lijre@lenovo.com, better with U1 snapshot or target product 's Product name and BIOS ID(detail BIOS version information) <br>
+<br>
+A: Other related issues, suggestion go standard technical escalation to get help from L2 or parts team<br>
+<br>
+<hr>
+<br>
+* 3.	How to use the U1 's Windows PE booting feature(only WIM version WIndows PE image is supprted, ISO image is not supported)<br>
+<br>
+A: U1 has related Windows PE booting feature provided, but as limitation as we can not provide/deliver any Windows PE image with U1 package and LSTC,<br>
+service engineer need to provide Windows PE byself --&gt; put it in proper subfolder inside U1 USB &amp; rename the Windows PE image as required,<br>
+<br>
+Then, we can boot related Windows PE  via U1 's boot menu items directly under EFI shell<br>
+<br>
+Notice for using this WinPE boot entry: <br>
+__1. The default boot manager BCD file is placed in [X:]\EFI\MICROSOFT\BOOT\ .<br>
+__2.  You need create the required folder in the USB key by yourself manually.<br>
+__3.  You need copy the required WinPE WIM file into above folder by yourself manually.<br>
+__4.  We allow below combinations of the folder name and the WIM file name:<br>
+<br>
+____1)  boot.wim with path [X:]\\sources\boot.wim<br>
+____2)  winpe.wim with path [X:]\\sources\winpe.wim<br>
+____3)  LiteTouchPE_x64.wim with path [X:]\\sources\LiteTouchPE_x64.wim<br>
+____4)  winpe64.wim with path [X:]\\TVTOS\winpe64.wim<br>
+<br>
+_____* You need rename your WIM file if its original file name is not in above.<br>
+<br>
+__5.  You may copy other folders and files of your WinPE to the same USB key if needed.<br>
+<br>
+<hr>
+<br>
+* 4.	U1 may not be recegnized by some products as the USB key is not able to got showing in the BIOS booting list <br>
+<br>
+A: U1 tool related USB key need to be formatted by provided formatting feature inside LSTC or U1 update utility, this is required by ThinkPad Maintenance Utility. thus, issue reported as some particular USB key brand formatted by LSTC/U1 Utility will have this issue on particular products <br>
+<br>
+   Suggestion go standard technical escalation to get help from L2 and related Product RD team<br>
+<br>
+   So far, the only workaround from U1 side is format the USB key by other common third part formatting utility to FAT32 format, then, use U1 utility or LSTC to update / deploy U1 modules to the USB, thus, the USB and U1 will able to work on that particular product, but the ThinkPad Maintenace Utility will not work anymore on any ThinkPad(suggest to create a new USB only for products with this issue)<br>
+<br>
+<hr>
+<br>
+* 5.	U1 tool tips: <br>
+<br>
+A: It detects Platform by default and execute ThinkPad Maintenance Utility for ThinkPad Machines and Golden key Tool for Other Products Like ThinkBook and Desktops.<br>
+Following QR Codes can(inside below U1 tips) be scanned for instruction videos.<br>
+<br>
+<a href="https://support.lenovo.com/us/en/solutions/ht507251" target="_blank">Golden Key U1 BIOS Tool for UEFI BIOS - Lenovo Notebook, Desktop and Think Product</a> <br>
+<br>
+<hr>
+<br>
+<br>
+</span>
+
+<hr>
+
+
+
+</body></html>
